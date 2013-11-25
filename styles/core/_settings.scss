@@ -1,0 +1,65 @@
+// ==========================================================================
+//
+// Table of Contents
+//
+//  * Border Radius
+//  * Colors
+//  * Font Settings
+//  * Font Size
+//  * Heights
+//  * Images
+//  * Spaces
+//  * Width
+//
+// ==========================================================================
+
+// Border Radius
+$radius-base: 3px;
+$radius-2: $radius-base * 2;
+$radius-3: $radius-base * 4;
+
+// Colors
+$color-a: #000; // Text Black
+$color-b: #e74c3c; // Accent Red
+$color-c: #f29839; // Spaces Orange
+$color-d: #a8d06a; // Events Green
+$color-e: #444;
+$color-f: #555;
+$color-g: #666;
+$color-h: #777;
+$color-i: #888;
+$color-j: #999;
+$color-black: $color-a;
+$color-accent: $color-b;
+$color-spaces: $color-c;
+$color-events: $color-d;
+
+// Font Settings
+$font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック', Helvetica, arial, sans-serif;
+
+// Font Size
+$font-size-base: 14px;
+$font-size-1: $font-size-base - 6px;
+$font-size-2: $font-size-base - 4px;
+$font-size-3: $font-size-base - 2px;
+$font-size-4: $font-size-base + 2px;
+$font-size-5: $font-size-base + 4px;
+$font-size-6: $font-size-base + 6px;
+
+// Heights
+$height-tap-1: 26px;
+$height-tap-2: 32px;
+$height-tap-3: 42px;
+
+// Images
+$img-dir: "../images";
+
+// Spaces
+$space-base: 20px;
+$space-2: $space-base * 2;
+$space-3: $space-base * 3;
+$space-4: $space-base * 4;
+
+// Width
+$wrap-width: 960px;
+

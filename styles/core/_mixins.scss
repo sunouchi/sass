@@ -1,0 +1,94 @@
+// ==========================================================================
+// 
+// Helper mixins.
+//
+// Table of Contents
+//
+//  * .add-icon
+//  * .border-left-item
+//  * .link-color
+//  * .resizable-color
+//
+// ==========================================================================
+
+
+// ==================================
+// bg-img
+// ==================================
+@mixin bg-img($mage-url, $width, $height) {
+  background: url($mage-url) no-repeat;
+  display: block;
+  height: $height;
+  text-indent: -9999px;
+  width: $width;
+}
+
+
+
+// ==================================
+// prepend-icon
+// ==================================
+@mixin prepend-icon($unicode) {
+  &:before { 
+    @extend .font-awesome;
+    content: $unicode;
+  }
+}
+
+
+
+// ==================================
+// prepend-img
+// ==================================
+@mixin prepend-img($img-url, $space: 10px, $top:1px) {
+  &:before {
+    content: url($img-url);
+    margin-right: $space;
+    position: relative;
+    top: $top;
+  }
+}
+
+
+
+// ==================================
+// link-color
+// ==================================
+@mixin link-color($normal-color, $link-color, $text-decoration: true ) {
+  color: $normal-color;
+  @if $text-decoration == true {
+    text-decoration: underline;
+  } @else {
+    text-decoration: none;
+  }
+
+  &:focus{
+    color: $normal-color;
+  }
+
+  &:active,
+  &:hover {
+    color: $link-color;
+    @if $text-decoration == true {
+      text-decoration: underline;
+    } @else {
+      text-decoration: none;
+    }
+  }
+}
+
+
+
+// ==================================
+// sprite-background
+// ==================================
+// @mixin sprite-background($name) {
+//   background-image: $sprites-img;
+//   background-repeat: no-repeat;
+//   display: block;
+//   height: image-height(sprite-file($sprites, $name)) / 2;
+//   width: image-width(sprite-file($sprites, $name)) / 2;
+//   $ypos: round(nth(sprite-position($sprites, $name), 2) / 2);
+//   background-position: 0 $ypos;
+//   @include background-size(100px auto);
+// }

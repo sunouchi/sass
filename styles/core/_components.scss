@@ -1,0 +1,33 @@
+// ==========================================================================
+//
+// Import bower_components jquery plugins scss
+//
+// ==========================================================================
+
+// ==================================
+// Bower_components
+// ==================================
+@import "../bower_components/normalize-scss/normalize";
+@import "../bower_components/flexslider-compass/flexslider";
+@import "../bower_components/font-awesome/scss/font-awesome";
+// @import "../bower_components/isotope/css/style";
+
+
+
+
+// ==================================
+// Bootstrap
+// ==================================
+// Core variables and mixins
+@import "../bower_components/sass-bootstrap/lib/variables";
+@import "../bower_components/sass-bootstrap/lib/mixins";
+
+// Components w/ JavaScript
+@import "../bower_components/sass-bootstrap/lib/modals";
+@import "../bower_components/sass-bootstrap/lib/tooltip";
+@import "../bower_components/sass-bootstrap/lib/popovers";
+@import "../bower_components/sass-bootstrap/lib/carousel";
+
+// Utility classes
+@import "../bower_components/sass-bootstrap/lib/utilities";
+@import "../bower_components/sass-bootstrap/lib/responsive-utilities";
