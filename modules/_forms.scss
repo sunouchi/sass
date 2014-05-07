@@ -1,0 +1,41 @@
+form {
+  ul {
+  }
+
+  .require {
+    color: #f00;
+    font-weight: bold;
+  }
+
+  input[disabled="disabled"] {
+    opacity: 0.5;
+  }
+
+  input[type="radio"],
+  input[type="checkbox"] {
+    // margin: 4px 4px 0 0;
+  }
+
+  label + label {
+    margin-left: 15px;
+  }
+}
+
+
+
+// ==================================
+// 強調された入力エリア
+// ==================================
+.form-highlighted {
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
+    background: #ffd;
+  }
+}
+
+.form-highlighted-items {
+  background: #ffd;
+}
+

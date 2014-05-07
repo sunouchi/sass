@@ -1,0 +1,55 @@
+// 角丸
+$radius-base: 3px;
+$radius-double: $radius-base * 2;
+
+// 配色
+// サイトの配色
+$color-main: #0085e1;
+$color-sub: #fbd503;
+$color-sub-light: #fcf7dd;
+$color-background: #e9e9e9;
+
+// 処理のエラー、成功などの機能的な色
+$color-success: #2eca70;
+$color-success-light: #ecfee4;
+$color-info: #31708f;
+$color-info-light: #d9edf7;
+$color-warning: #e7c515;
+$color-warning-light: #fcf8e3;
+$color-danger: #e74c3c;
+$color-danger-light: #fee7e7;
+
+// テキストなどの色
+$color-text: #444;
+$color-border: #ccc;
+
+// SNSの色
+$color-facebook: #3b579d;
+$color-google: #e34633;
+$color-line: #2cbf13;
+$color-mixi: #d1ad5a;
+$color-twitter: #00b0ed;
+
+// Font Settings
+$font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', Verdana, Helvetica, sans-serif;
+
+// フォントサイズ
+// $font-size-xl: 18px;
+// $font-size-l: 16px;
+// $font-size-m: 14px;
+// $font-size-s: 12px;
+// $font-size-xs: 10px;
+
+// Heights
+$height-tap-1: 26px;
+$height-tap-2: 32px;
+$height-tap-3: 42px;
+
+// Width
+$wrap-width: 960px;
+
+// break-points
+$breakpoint-mobile: "screen and (max-width: 640px)";
+$breakpoint-mobile-portlait: "screen and (max-width: 479px)";
+$breakpoint-mobile-landscape: "screen and (min-width: 480px) and (max-width: 640px)";
+$breakpoint-desktop: "print, screen and (min-width: 641px)";

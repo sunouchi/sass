@@ -1,0 +1,18 @@
+.print {
+  display: none;
+}
+
+@media print {
+  body .print {
+    display: block!important;
+    text-indent: 0;
+  }
+
+  a[href]:after {
+    content: none;
+  }
+
+  abbr[title]:after {
+    content: none;
+  }
+}
