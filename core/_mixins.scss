@@ -2,3 +2,15 @@
   max-height: $height;
   overflow: hidden;
 }
+
+// ul, liのデフォルト指定をリセットする
+@mixin reset-ul-style($list-style: none) {
+  margin: 0;
+  padding: 0;
+
+  li {
+    list-style: $list-style;
+    margin: 0;
+    padding: 0;
+  }
+}
